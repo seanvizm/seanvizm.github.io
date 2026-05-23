@@ -716,16 +716,55 @@
       "url": "",
       "github": "https://github.com/seanvizm/syecore/",
       "screenshots": [
-        { "file": "dashboard.png",      "label": "Dashboard / Live stat cards",     "path": "sshot/syecore" },
-        { "file": "customers.png",      "label": "Lead & Customers Management",     "path": "sshot/syecore" },
-        { "file": "email-template.png", "label": "Email Templates & Campaigns",     "path": "sshot/syecore" },
-        { "file": "settings.png",       "label": "General Settings",                "path": "sshot/syecore" },
-        { "file": "settings-post-type.png",   "label": "Post Type Setings",         "path": "sshot/syecore" },
-        { "file": "post-table-view.png",   "label": "Dynamic Data Table View",      "path": "sshot/syecore" },
-        { "file": "post-kanban-view.png",   "label": "Alternative Kanban View",     "path": "sshot/syecore" },
-        { "file": "users.png",   "label": "Users & Roles Management",               "path": "sshot/syecore" },
-        { "file": "audit-trail.png",   "label": "Comprehensive Activity Logs",      "path": "sshot/syecore" },
-        { "file": "graphql-playground.png",   "label": "GraphQL Playground",        "path": "sshot/syecore" }
+        { "file": "dashboard.png",          "label": "Dashboard / Live stat cards",   "path": "sshot/syecore" },
+        { "file": "customers.png",          "label": "Lead & Customers Management",   "path": "sshot/syecore" },
+        { "file": "email-template.png",     "label": "Email Templates & Campaigns",   "path": "sshot/syecore" },
+        { "file": "settings.png",           "label": "General Settings",              "path": "sshot/syecore" },
+        { "file": "settings-post-type.png", "label": "Post Type Setings",             "path": "sshot/syecore" },
+        { "file": "post-table-view.png",    "label": "Dynamic Data Table View",       "path": "sshot/syecore" },
+        { "file": "post-kanban-view.png",   "label": "Alternative Kanban View",       "path": "sshot/syecore" },
+        { "file": "users.png",              "label": "Users & Roles Management",      "path": "sshot/syecore" },
+        { "file": "audit-trail.png",        "label": "Comprehensive Activity Logs",   "path": "sshot/syecore" },
+        { "file": "graphql-playground.png", "label": "GraphQL Playground",            "path": "sshot/syecore" }
+      ]
+    },
+    {
+      "langIcon": "mdi:react",
+      "name": "Personal SWOT Assistant",
+      "isActive": true,
+      "description": "A personal SWOT (Strengths, Weaknesses, Opportunities, Threats) coaching app built in React Native with Expo. Acts as a dashboard-style coach in your pocket, with four customizable mentor personas, daily prompts, local persistence, charts, and weekly AI-style insights — no backend required.",
+      "highlights": [
+        "SWOT Logging: Add entries tagged as Strength, Weakness, Opportunity, or Threat.",
+        "Score Factors: Each entry accepts an Importance weight (0.01–1.0) and a Rating (1–3, for S/W: minor → major) or Probability (1–3, for O/T: low → high); score = importance × rating/probability.",
+        "Dashboard: Live pie chart of SWOT distribution, SWOT Factor Analysis (grouped bar + radar/spider chart with toggle), and 6-week trend line graph.",
+        "Factor Analysis Chart: Dual-view chart toggled between a grouped bar chart and a radar/spider chart, both showing total entries and average score per SWOT group.",
+        "Persona Selector: Choose from 4 mentor styles; persisted across sessions.",
+        "Daily Prompts: Persona-specific reflection prompts, rotated daily.",
+        "Coach Messages: Contextual mentor feedback based on your logged data.",
+        "Weekly Summary: Aggregated breakdown with percentage split and mentor insight paragraph.",
+        "Guide Screen: Comprehensive walkthrough with SWOT principles, 6 real-life use cases (Career, Health, Learning, Relationships, Finance, Mental Health), expandable examples, and coach tips.",
+        "Full Offline: All data lives in AsyncStorage — no network required."
+      ],
+      "stack": {
+        "React Native": "mdi:react",
+        "TypeScript": "simple-icons:typescript",
+        "NodeJs": "mdi:nodejs",
+        "Expo.io": "simple-icons:expo",
+        "Android": "simple-icons:android",
+        "Ios": "simple-icons:ios"
+      },
+      "url": "",
+      "github": "https://github.com/seanvizm/swotup/",
+      "screenshots": [
+        { "file": "dashboard-1.jpg",        "label": "Your SWOT Main Dashboard",          "path": "sshot/swotassist" },
+        { "file": "dashboard-2.jpg",        "label": "SWOT Factor Analysis",              "path": "sshot/swotassist" },
+        { "file": "log-entry.jpg",          "label": "SWOT Log Entry with Score Factors", "path": "sshot/swotassist" },
+        { "file": "today-entries.jpg",  "label": "List of Data Entries",                  "path": "sshot/swotassist" },
+        { "file": "guide-1.jpg",            "label": "SWOT Assistant Guide",              "path": "sshot/swotassist" },
+        { "file": "guide-2.jpg",            "label": "Why Use SWOT Assistant",            "path": "sshot/swotassist" },
+        { "file": "guide-3.jpg",            "label": "Example Daily Uses",                "path": "sshot/swotassist" },
+        { "file": "guide-4.jpg",            "label": "SWOT Use Samples",                  "path": "sshot/swotassist" },
+        { "file": "whats-next.jpg",         "label": "Coming Next",                       "path": "sshot/swotassist" }
       ]
     },
     {
