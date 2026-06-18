@@ -228,10 +228,10 @@ const firstScreenshot: Screenshot | undefined = screenshots[0];
         <section class="space-y-3">
           <h2 class="border-b border-skin-muted/20 pb-2 text-lg font-semibold text-skin-base">Features & Highlights</h2>
           <ul class="space-y-2.5">
-            {highlights.map((h: string) => (
+            {highlights.map((h: string | any) => (
               <li class="flex gap-3 text-skin-base">
                 <span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-skin-hue"></span>
-                <span class="leading-relaxed">{h}</span>
+                <span class="leading-relaxed" set:html={h}></span>
               </li>
             ))}
           </ul>
