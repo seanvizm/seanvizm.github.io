@@ -11,7 +11,7 @@
     "email": "vizmara@gmail.com",
     "theme": "batman",
     "url": "https://seanvizm.github.io",
-    "summary": "Pushing business concept to code, solve the problem, innovate and keeping things simple. This is me. 🌀",
+    "summary": "Pushing business concept to code, solving every problem, innovate and keeping things simple. This is me. 🌀",
     "location": {
       "city": "",
       "region": "Calabarzon",
@@ -19,7 +19,7 @@
       "country": "Philippines"
     },
     "phone": "",
-    "last_updated": "Jun 19, 2026",
+    "last_updated": "June 19, 2026",
     "profiles": [
       {
         "network": "GitHub",
@@ -40,7 +40,7 @@
         "icon": "mdi:web",
         "color": "#929AAB",
         "username": "www",
-        "url": "https://seanvizm.github.io"
+        "url": "https://seanvizm.github.io/"
       }
     ]
   },
@@ -695,7 +695,7 @@
         "Low-Code Development Platform: <i>This enable faster development and deployment of applications by minimizing the amount of manual coding required.</i>",
         "Dashboard Statistics: <i>Live stat cards for CRM entities and all active post types with line, pie, bar (status) and bar (category) charts also have date-range filter data scopes for different viewing.</i>",
         "Custom Entity Types: <i>Create and configure custom content types (e.g. Products, Invoices, Transactions) via the Post Type Settings panel.</i>",
-        "Dynamic Field Definitions: <i>Each post type defines its own custom fields (string, number, boolean, date, text, array, object) stored as JSON. Fields automatically render in the table columns and the add/edit form.</i>",
+        "Dynamic Field Definitions: <i>Each post type defines its own custom fields (string, number, boolean, date, text, array, object) stored as JSON. Defined fields automatically rendered in the table columns and auto constructed in its builtin add/edit form.</i>",
         "Responsive table data management with search, multi-select status filter, category filter, date-range filter, column visibility toggle, and pagination.",
         "Hook Events: <i>Setup on admin and run PHP scripts automatically before or after CRUD lifecycle points.</i>",
         "Email Templates & Campaigns: <i>Create and manage reusable HTML templates; launch bulk email campaigns with optional scheduling and per-recipient delivery tracking.</i>",
@@ -703,7 +703,7 @@
         "Tenant Account Management: <i>Multi-tenant account system with user assignment controls.</i>",
         "Using Docker / Docker Compose development tools for microservice containerization",
         "With interactive GraphQL Playground and Swagger API documentation",
-        "Future development will also leverage \"<i>Machine Learning & Workflow Automation</i>\" for effective data management."
+        "Future development will also leverage \"<i>Machine Learning & Workflow Automation</i>\" for efficient data management."
       ],
       "stack": {
         "PHP": "simple-icons:php",
@@ -727,9 +727,9 @@
         { "file": "email-template.png",             "label": "Email Templates",                       "path": "sshot/syecore" },
         { "file": "email-campaign.png",             "label": "Email Campaigns",                       "path": "sshot/syecore" },
         { "file": "settings.png",                   "label": "General Settings",                      "path": "sshot/syecore" },
-        { "file": "settings-post-type.png",         "label": "Post Type Setings",                     "path": "sshot/syecore" },
+        { "file": "settings-post-type.png",         "label": "Post Type Setings (Basics & Settings)", "path": "sshot/syecore" },
         { "file": "settings-post-type-fields.png",  "label": "Post Type Setings (Field Definitions)", "path": "sshot/syecore" },
-        { "file": "settings-post-type-hooks.png",   "label": "Post Type Setings (Hooks)",             "path": "sshot/syecore" },
+        { "file": "settings-post-type-hooks.png",   "label": "Post Type Setings (Hook Events)",       "path": "sshot/syecore" },
         { "file": "post-table-view.png",            "label": "Dynamic Data Table View",               "path": "sshot/syecore" },
         { "file": "post-kanban-view.png",           "label": "Alternative Kanban View",               "path": "sshot/syecore" },
         { "file": "users.png",                      "label": "Users & Roles Management",              "path": "sshot/syecore" },
@@ -769,7 +769,7 @@
         { "file": "dashboard-1.jpg",        "label": "Your SWOT Main Dashboard",          "path": "sshot/swotassist" },
         { "file": "dashboard-2.jpg",        "label": "SWOT Factor Analysis",              "path": "sshot/swotassist" },
         { "file": "log-entry.jpg",          "label": "SWOT Log Entry with Score Factors", "path": "sshot/swotassist" },
-        { "file": "today-entries.jpg",  "label": "List of Data Entries",                  "path": "sshot/swotassist" },
+        { "file": "today-entries.jpg",      "label": "List of Data Entries",              "path": "sshot/swotassist" },
         { "file": "guide-1.jpg",            "label": "SWOT Assistant Guide",              "path": "sshot/swotassist" },
         { "file": "guide-2.jpg",            "label": "Why Use SWOT Assistant",            "path": "sshot/swotassist" },
         { "file": "guide-3.jpg",            "label": "Example Daily Uses",                "path": "sshot/swotassist" },
@@ -833,12 +833,12 @@
       "isActive": true,
       "description": "A Laravel 12 application for PizzaPlanet's online pizza ordering platform, demonstrating software engineering principles, design patterns, and clean architecture.",
       "highlights": [
-        "Multiple Preset Pizzas: Margherita, Romana, Americana, and Mexicana",
-        "Custom Pizza Builder: Create your own pizza with up to 4 toppings",
-        "Flexible Payment Options: Card and PayPal payment methods (mocked for demonstration)",
-        "Price Calculation Engine: Dynamic pricing based on pizza type and toppings",
-        "Shopping Cart: Full cart management with session persistence",
-        "Order Processing: Order creation and payment tracking with comprehensive logging"
+        "Multiple Preset Pizzas: <i>Margherita, Romana, Americana, and Mexicana</i>",
+        "Custom Pizza Builder: <i>Create your own pizza with up to 4 toppings</i>",
+        "Flexible Payment Options: <i>Card and PayPal payment methods (mocked for demonstration)</i>",
+        "Price Calculation Engine: <i>Dynamic pricing based on pizza type and toppings</i>",
+        "Shopping Cart: <i>Full cart management with session persistence</i>",
+        "Order Processing: <i>Order creation and payment tracking with comprehensive logging</i>"
       ],
       "stack": {
         "PHP": "simple-icons:php",
@@ -895,11 +895,11 @@
       "isActive": true,
       "description": "This is a powerful orchestration tool that allows you to define complex multi-step workflows using Lua configuration files, with automatic dependency resolution and data passing between steps.",
       "highlights": [
-        "Code-First Declarative Configuration: Define workflows using intuitive Lua syntax",
-        "Data Processing Pipelines: Chain together data fetching, transformation, and storage operations",
-        "DevOps Automation: Combine shell commands, Python scripts, JavaScript automation, and Lua logic for deployment workflows",
-        "Multi-Language Projects: Leverage the best of each language in a single workflow",
-        "Complex Orchestration: Handle intricate dependency graphs with automatic topological sorting"
+        "Code-First Declarative Configuration: <i>Define workflows using intuitive Lua syntax</i>",
+        "Data Processing Pipelines: <i>Chain together data fetching, transformation, and storage operations</i>",
+        "DevOps Automation: <i>Combine shell commands, Python scripts, JavaScript automation, and Lua logic for deployment workflows</i>",
+        "Multi-Language Projects: <i>Leverage the best of each language in a single workflow</i>",
+        "Complex Orchestration: <i>Handle intricate dependency graphs with automatic topological sorting</i>"
       ],
       "stack": {
         "Rust": "simple-icons:rust",
@@ -923,13 +923,13 @@
       "isActive": true,
       "description": "A high-performance graph database API built with Rust, Axum, and Apache Cassandra. This project provides a RESTful API for managing graph data with nodes and edges, complete with interactive Swagger documentation.",
       "highlights": [
-        "Fast and Safe: Built with Rust and Axum for maximum performance and memory safety.",
-        "Scalable: Uses Apache Cassandra for horizontal scalability.",
-        "Graph Data Model: Support for nodes with properties and typed relationships (edges).",
-        "RESTful API: Clean HTTP endpoints for all graph operations.",
-        "Docker Support: Easy development setup with Docker Compose.",
-        "Health Monitoring: Built-in health check endpoints.",
-        "Error Handling: Comprehensive error handling with proper HTTP status codes."
+        "Fast and Safe: <i>Built with Rust and Axum for maximum performance and memory safety.</i>",
+        "Scalable: <i>Uses Apache Cassandra for horizontal scalability.</i>",
+        "Graph Data Model: <i>Support for nodes with properties and typed relationships (edges).</i>",
+        "RESTful API: <i>Clean HTTP endpoints for all graph operations.</i>",
+        "Docker Support: <i>Easy development setup with Docker Compose.</i>",
+        "Health Monitoring: <i>Built-in health check endpoints.</i>",
+        "Error Handling: <i>Comprehensive error handling with proper HTTP status codes.</i>"
       ],
       "stack": {
         "Rust": "simple-icons:rust",
