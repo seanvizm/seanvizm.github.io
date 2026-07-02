@@ -11,7 +11,7 @@
     "email": "vizmara@gmail.com",
     "theme": "batman",
     "url": "https://seanvizm.github.io",
-    "summary": "Pushing business concept to code, solving every problem, innovate and keeping things simple. This is me. 🌀",
+    "summary": "Transforming business requirements into scalable, high-performance technical solutions and keeping things simple. 🌀",
     "location": {
       "city": "",
       "region": "Calabarzon",
@@ -19,7 +19,7 @@
       "country": "Philippines"
     },
     "phone": "",
-    "last_updated": "June 19, 2026",
+    "last_updated": "July 3, 2026",
     "profiles": [
       {
         "network": "GitHub",
@@ -692,16 +692,15 @@
       "isActive": true,
       "description": "This is a \"Business Data Management\" product on a CRM System. This helps organizations to derive insights from complex datasets, maintain competitive advantages, and support data-driven strategies by designing entity data structure and hook events. This could improve their ability to make informed decisions and take action based on insights gleaned from their business data activities.",
       "highlights": [
-        "Low-Code Development Platform: <i>This enable faster development and deployment of applications by minimizing the amount of manual coding required.</i>",
+        "Low-Code Development Platform (Syecore): <i>This introduce a faster development and deployment of applications by minimizing the amount of manual coding required.</i>",
         "Dashboard Statistics: <i>Live stat cards for CRM entities and all active post types with line, pie, bar (status) and bar (category) charts also have date-range filter data scopes for different viewing.</i>",
         "Custom Entity Types: <i>Create and configure custom content types (e.g. Products, Invoices, Transactions) via the Post Type Settings panel.</i>",
         "Dynamic Field Definitions: <i>Each post type defines its own custom fields (string, number, boolean, date, text, array, object) stored as JSON. Defined fields automatically rendered in the table columns and auto constructed in its builtin add/edit form.</i>",
-        "Responsive table data management with search, multi-select status filter, category filter, date-range filter, column visibility toggle, and pagination.",
-        "Hook Events: <i>Setup on admin and run PHP scripts automatically before or after CRUD lifecycle points.</i>",
+        "Auto-configured table component for data management with builtin search, multi-select status filter, category filter, date-range filter, column visibility toggle, import, export and pagination.",
+        "Hook Events: <i>Create and setup on admin to run PHP scripts automatically before and/or after CRUD lifecycle points.</i>",
         "Email Templates & Campaigns: <i>Create and manage reusable HTML templates; launch bulk email campaigns with optional scheduling and per-recipient delivery tracking.</i>",
         "Audit Trail: <i>A comprehensive activity log that tracks every create, update, delete, and restore event across all major data models, scoped to the current account.</i>",
         "Tenant Account Management: <i>Multi-tenant account system with user assignment controls.</i>",
-        "Using Docker / Docker Compose development tools for microservice containerization",
         "With interactive GraphQL Playground and Swagger API documentation",
         "Future development will also leverage \"<i>Machine Learning & Workflow Automation</i>\" for efficient data management."
       ],
@@ -722,20 +721,20 @@
       "url": "",
       "github": "https://github.com/seanvizm/syecore/",
       "screenshots": [
-        { "file": "dashboard.png",                  "label": "Dashboard / Live stat cards",           "path": "sshot/syecore" },
-        { "file": "customers.png",                  "label": "Lead & Customers Management",           "path": "sshot/syecore" },
-        { "file": "email-template.png",             "label": "Email Templates",                       "path": "sshot/syecore" },
-        { "file": "email-campaign.png",             "label": "Email Campaigns",                       "path": "sshot/syecore" },
-        { "file": "settings.png",                   "label": "General Settings",                      "path": "sshot/syecore" },
-        { "file": "settings-post-type.png",         "label": "Post Type Setings (Basics & Settings)", "path": "sshot/syecore" },
-        { "file": "settings-post-type-fields.png",  "label": "Post Type Setings (Field Definitions)", "path": "sshot/syecore" },
-        { "file": "settings-post-type-hooks.png",   "label": "Post Type Setings (Hook Events)",       "path": "sshot/syecore" },
-        { "file": "post-table-view.png",            "label": "Dynamic Data Table View",               "path": "sshot/syecore" },
-        { "file": "post-kanban-view.png",           "label": "Alternative Kanban View",               "path": "sshot/syecore" },
-        { "file": "users.png",                      "label": "Users & Roles Management",              "path": "sshot/syecore" },
-        { "file": "audit-trail.png",                "label": "Comprehensive Activity Logs",           "path": "sshot/syecore" },
-        { "file": "graphql-playground.png",         "label": "GraphQL Playground",                    "path": "sshot/syecore" },
-        { "file": "swagger-api-docs.png",           "label": "Swagger API Documentation",             "path": "sshot/syecore" }
+        { "file": "dashboard.png",                  "label": "Dashboard / Live stat cards",               "path": "sshot/syecore" },
+        { "file": "customers.png",                  "label": "Lead & Customers Management",               "path": "sshot/syecore" },
+        { "file": "email-template.png",             "label": "Email Templates Management",                "path": "sshot/syecore" },
+        { "file": "email-campaign.png",             "label": "Email Campaigns Setup",                     "path": "sshot/syecore" },
+        { "file": "settings.png",                   "label": "General Settings",                          "path": "sshot/syecore" },
+        { "file": "settings-post-type.png",         "label": "POST Type Setings (Basics & Settings)",     "path": "sshot/syecore" },
+        { "file": "settings-post-type-fields.png",  "label": "POST Type Setings (Field Definitions)",     "path": "sshot/syecore" },
+        { "file": "settings-post-type-hooks.png",   "label": "POST Type Setings (Hook Events)",           "path": "sshot/syecore" },
+        { "file": "post-table-view.png",            "label": "Dynamic & Interactive Data Table View",     "path": "sshot/syecore" },
+        { "file": "post-kanban-view.png",           "label": "Alternative Draggable Kanban View",         "path": "sshot/syecore" },
+        { "file": "users.png",                      "label": "Users & Roles Management",                  "path": "sshot/syecore" },
+        { "file": "audit-trail.png",                "label": "Comprehensive Activity Logs (Audit Trail)", "path": "sshot/syecore" },
+        { "file": "graphql-playground.png",         "label": "GraphQL Interactive Playground",            "path": "sshot/syecore" },
+        { "file": "swagger-api-docs.png",           "label": "Swagger API Documentation",                 "path": "sshot/syecore" }
       ]
     },
     {

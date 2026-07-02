@@ -59,7 +59,7 @@ const firstScreenshot: Screenshot | undefined = screenshots[0];
         </a>
 
         <div class="flex items-center gap-3">
-          <ThemeSwitch />
+          <!-- <ThemeSwitch /> -->
           {github && (
             <a
               href={github}
@@ -218,14 +218,14 @@ const firstScreenshot: Screenshot | undefined = screenshots[0];
       )}
 
       <!-- About / Description -->
-      <section class="space-y-3">
+      <section class="space-y-2">
         <h2 class="border-b border-skin-muted/20 pb-2 text-lg font-semibold text-skin-base">About</h2>
         <p class="leading-relaxed text-skin-base">{description}</p>
       </section>
 
       <!-- Features & Highlights -->
       {highlights.length > 0 && (
-        <section class="space-y-3">
+        <section class="space-y-2">
           <h2 class="border-b border-skin-muted/20 pb-2 text-lg font-semibold text-skin-base">Features & Highlights</h2>
           <ul class="space-y-2.5">
             {highlights.map((h: string | any) => (
@@ -240,7 +240,7 @@ const firstScreenshot: Screenshot | undefined = screenshots[0];
 
       <!-- Tech Stack -->
       {Object.keys(stack).length > 0 && (
-        <section class="space-y-3">
+        <section class="space-y-2">
           <h2 class="border-b border-skin-muted/20 pb-2 text-lg font-semibold text-skin-base">Tech Stack</h2>
           <ul class="flex flex-wrap gap-2">
             {(Object.entries(stack) as StackEntry[]).map(([label, icon]) => (
