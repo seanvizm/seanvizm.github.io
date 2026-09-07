@@ -19,7 +19,7 @@
       "country": "Philippines"
     },
     "phone": "",
-    "last_updated": "July 8, 2026",
+    "last_updated": "September 8, 2026",
     "profiles": [
       {
         "network": "GitHub",
@@ -688,11 +688,11 @@
   "projects": [
     {
       "langIcon": "simple-icons:laravel",
-      "name": "CRM with Business Data Management",
+      "name": "CRM with Data-Driven App Builder",
       "isActive": true,
-      "description": "This is a \"Business Data Management\" set of custom tools on a CRM focus system. This helps organizations to build and manage their own custom data applications, maintain flexibility advantages, derive insights from complex datasets, and support data-driven strategies from custom data structure and configurable hook events. This could improve their ability to make informed decisions and take action based on insights gleaned from their business data activities.",
+      "description": "A platform empowering organizations to build and manage custom data applications within the CRM ecosystem. By combining flexible data structures, configurable event hooks, and advanced analytics capabilities, this system transforms business data into actionable intelligence—enabling strategic decision-making through customizable dashboards, automated workflows, and real-time insights.",
       "highlights": [
-        "Built-in Admin Panel (Syecore): <i>This is an application development platform in a customized data schema and events approach that allows users to create and manage business applications with minimal configuration to no coding setup.</i>",
+        "Built-in Admin Panel (Syecore): <i>A low-code app builder powered by a dynamic data-first architecture. Define your entities, fields, and relationships once—then instantly generate CRUD interfaces, forms, tables, and reports. The Syecore platform handles schema migrations, event-driven hooks, and automation rules, enabling teams to build enterprise-grade applications without writing backend code.</i>",
         "Dashboard Statistics: <i>Live stat cards for CRM entities and all active post types with line, pie, bar (status) and bar (category) charts also have date-range filter data scopes for different viewing.</i>",
         "Custom Entity Types: <i>Create and configure custom content types (e.g. Products, Invoices, Transactions) via the Post Type Settings panel.</i>",
         "Dynamic Field Definitions: <i>Each post type defines its own custom fields (string, number, boolean, date, text, array, object) stored as JSON. Defined fields automatically rendered in the table columns and auto constructed in its builtin add/edit form.</i>",
@@ -715,8 +715,10 @@
         "Docker": "mdi:docker",
         "Nginx": "simple-icons:nginx",
         "PostgreSQL": "simple-icons:postgresql",
+        "Swagger": "simple-icons:swagger",
         "GraphQL": "simple-icons:graphql",
-        "Swagger": "simple-icons:swagger"
+        "NextJS": "simple-icons:react",
+        "C#.NET Core": "simple-icons:csharp"
       },
       "url": "",
       "github": "https://github.com/seanvizm/syecore/",

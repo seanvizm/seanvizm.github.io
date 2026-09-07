@@ -1,0 +1,22 @@
+---
+import Layout from "@layouts/Layout.astro";
+---
+
+<Layout title="Page Not Found">
+  <main class="flex min-h-screen items-center justify-center px-6 py-16 text-center">
+    <section class="space-y-4">
+      <p class="text-4xl font-semibold uppercase tracking-[0.3em] text-skin-muted">404</p>
+      <h1 class="text-4xl font-bold text-skin-base sm:text-5xl">Page not found</h1>
+      <p class="mx-auto max-w-md text-skin-muted">
+        The page you are looking for does not exist or may have moved.
+      </p>
+      <a
+        href="/"
+        class="inline-flex items-center gap-2 rounded-lg bg-skin-button px-5 py-3 font-semibold text-skin-button-text transition hover:opacity-80 focus:outline-none focus:ring-2 focus:ring-skin-hue focus:ring-offset-2 focus:ring-offset-skin-fill"
+      >
+        <span aria-hidden="true">&larr;</span>
+        Back to home
+      </a>
+    </section>
+  </main>
+</Layout>
