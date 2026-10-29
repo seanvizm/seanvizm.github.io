@@ -1,6 +1,6 @@
 ---
 import Section from '../Section.astro'
-import { basics, certificates } from '@mycvdata'
+import { certificates } from '@mycvdata'
 import { Icon } from 'astro-icon/components'
 import { Image } from 'astro:assets'
 
@@ -23,6 +23,8 @@ const base_url = import.meta.env.BASE_URL;
               <div class="mt-4  print:gap-0 flex flex-col gap-4 print:text-xs text-sm">
                 {category && (
                   <h4 class="print:font-bold print:pt-1 text-nowrap" data-ccursor="lift">{category}: {list.length > 0 && (<small>({list.length} certificates)</small>)}</h4>
+                )}
+                {category && (
                   <ul class="flex print:hidden flex-wrap gap-2" aria-label={category}>
                     {list && list.map(({icon, title, url, imageSrc}) => (
                         <li data-ccursor="lift" class="bg-skin-button-accent/20 border-skin-hue/20 text-skin-hue print:p-0 print:bg-transparent print:text-zinc-800 flex gap-1 items-center border-solid print:border-none border rounded-md px-2 py-1 text-xs backdrop-blur-sm select-none">
@@ -38,7 +40,7 @@ const base_url = import.meta.env.BASE_URL;
                                 {imageSrc && (<Image
                                   class='scale-100 w-64'
                                   height={376}
-                                  width={408}}
+                                  width={408}
                                   src={base_url + imageSrc}
                                   alt={title}
                                   loading='lazy' />)}

@@ -67,6 +67,10 @@
         {
           "title": "Data Table Generic Component",
           "details": "This component allows for rapid creation of tables with various built-in functionalities, including automation for API data sources, form input, inline editing, column resizing, filtering & sorting, pagination, charts & graphs view, bulk data importing/exporting and CRUD operations, streamlining the development process and promoting code reusability."
+        },
+        {
+          "title": "Custom ETL Microservice",
+          "details": "A high-performance batch data processing microservice using Polars for \"vectorized lazy\" transformations and Prefect for orchestration & workflow management on multiple ingestion sources."
         }
       ],
       "skills": {
